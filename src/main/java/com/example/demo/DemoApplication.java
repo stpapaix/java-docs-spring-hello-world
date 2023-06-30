@@ -16,6 +16,6 @@ public class DemoApplication extends SpringBootServletInitializer {
 
 	@RequestMapping("/")
 	String sayHello() {
-		return "Hello Azure!";
+		return "Hello from Java Tomcat Application run in Azure Web App!";
 	}
 }
